@@ -1,0 +1,223 @@
+body {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.navbar-expand-lg.bg-body-tertiary {
+    background-color: #fff !important;
+}
+
+.bgtop1 {
+    text-align: right;
+    background: #302f2f;
+}
+
+.bgtop1 a {
+    color: white;
+}
+
+.login-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 400px;
+    opacity: 0.9;
+}
+
+.login-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.login-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #0069d9;
+}
+
+.registration-container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.registration-label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.registration-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.registration-input:focus {
+    border: 1px solid #007bff;
+    box-shadow: 0 0 0 2px #007bff;
+}
+
+.registration-error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.registration-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration-button:hover {
+    background-color: #0056b3;
+}
+
+.dropdown button {
+    border: none !important;
+}
+
+.dropdown-menu a {
+    color: #302f2f;
+}
+
+section {
+    padding: 4rem;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.mt-6 {
+    margin-top: 1.5rem;
+}
+
+label {
+    display: block;
+}
+
+.footer img {
+    height: 200px;
+}
+
+.form-section {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: #f7f7f7;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+
+    /* Tạo giao diện chung cho các form profile */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-section header h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-section p {
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+.form-section label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.form-section input,
+.form-section textarea {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+.form-section input:focus,
+.form-section textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px #007bff;
+}
+
+.form-section button {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #0056b3;
+}
+
+.form-section a {
+    color: #007bff;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width:40px;
+    height:40px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .scroll-to-top svg {
+    width: 90px;
+    height: 79px;
+    transform: translateX(-14%);
+  }
+  
